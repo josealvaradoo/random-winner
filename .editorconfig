@@ -1,0 +1,14 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# New lines ending file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Tab Identation
+[*]
+indent_style = tab
+indent_size = 4

@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Scaffold files
-import Scaffold from './scaffold/index';
-import './scaffold/styles.css';
+import App from './App';
+import './assets/css/styles.css';
 
-ReactDOM.render(<Scaffold />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

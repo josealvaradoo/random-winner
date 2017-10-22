@@ -1,9 +1,10 @@
 {
-  "name": "react-scaffold",
+  "name": "random-winner",
   "version": "1.0.0",
   "main": "index.js",
   "author": "@josealvaradoo",
   "license": "MIT",
+  "description": "Select a random winner",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack -p"
@@ -20,6 +21,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "express": "^4.16.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }

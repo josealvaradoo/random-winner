@@ -1,29 +1,11 @@
-# React Scaffold con Webpack
+#Random Winner
 
-Plantilla para proyectos React.js pre-configurada con webpack. Viene siendo algo similar al CLI de React `create-react-app`
+Its a very simple web application made with React.js (own scaffold based) to select a random value between a range given by you.
 
-> Un **Scaffold** es una plantilla preparada como base para comenzar proyectos, sin tener que empezar de cero la configuración del mismo.
+It contains a toggle button to show an animated result if you would like.
 
-## Instalación
+### Testing
 
-Debes instalar todos los paquetes usando el comando
-```
-npm install
-```
+To test this project, clone the repository, install all dependencies with npm or yarn, and ejecute the 'start' command.
 
-## Puesta en marcha
-
-Para comenzar el proyecto en etapa de desarrollo basta con ejecutar el comando
-```
-npm run start
-```
-
-### Trabajar sobre el proyecto
-Para empezar a trabajar sobre el proyecto, modifica o crea los archivos en la carpeta `/app`. El archivo principal es `/app/index.js` por lo que no debes eliminarlo, pero sí puedes modificarlo. Y puedes eliminar la carpeta `app/scaffold` si lo deseas.
-
-## Producción
-
-Para crear los archivos de producción solo debes ejecutar el comando
-```
-npm run build
-```
+```npm start```
