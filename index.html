@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Random Winner</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#eeeeee">
+	<title>Random Winner</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="manifest" href="manifest.json">
 </head>
 <body>
     <div id="root"></div>
-<script type="text/javascript" src="bundle.js"></script></body>
+	<script type="text/javascript" src="bundle.js"></script>
+	<script>
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker
+				 .register('./sw.js')
+				 .then(function() { console.log('Service Worker Registered'); });
+	}
+	</script>
+</body>
 </html>

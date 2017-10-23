@@ -1,0 +1,16 @@
+{
+  "name": "Random Winner",
+  "orientation": "portrait",
+  "display": "standalone",
+  "short_name": "RandomWinner",
+  "description": "Select a random value between to values",
+  "background_color": "#ffffff",
+  "lang": "en",
+  "theme_color": "#eeeeee",
+  "start_url:": "index.html",
+  "icons": [{
+	  "src": "./icon.ico",
+	  "sizes": "64x64",
+	  "type": "image/ico"
+	}]
+}
